@@ -1,0 +1,23 @@
+-> Virtual DOM - key features include the ability to pause, abort, or reuse work as new updates come in; the ability to assign priorty to different types of updates; and new concurrency primitives.
+
+-> Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM
+
+-> Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique.
+
+-> The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.
+
+-> onClick always takes a function in it not return value of the function
+	ex - 
+		const [color, setColor] = useState("olive")
+		onClick={() => setColor("gold")}
+
+	In the above example we used the syntax because if we use it as 
+		- onClick{setColor("gold")} then this means that setColor("gold")} is passing a return value to the onClick Property but the onClick property needs a function in it;
+		
+		- We can also write as onClick{setColor}, in this we passed a reference of the function in onClick property which is not wrong but the setColor doesnot do anything as no arguments are passed so no point to write the given line.
+
+- useEffect, useRef these are the hooks used for more code optimization so that you can remove the chances of minimal errors that can affect your application.
+
+- to use loops in react we should try to use key it enhances the performance
+
+- We don't use 'a' tag in react instead we use 'link' tag which resist the page reload functionality

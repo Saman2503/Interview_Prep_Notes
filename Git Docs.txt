@@ -1,0 +1,17 @@
+-> Git is a software and github is the service.
+
+-> Git is a version control system that allows you to track changes to your files and folders
+
+-> The three musketeers of git are:
+	- Commit Object
+	- Tree Object
+	- Blob Object
+
+-> git diff
+	It  shows the differences between  two commits
+
+-> git stash
+	stash is a way to store your information in temporary location
+
+-> Ensure you are on the branch you want to rebase
+	

@@ -1,0 +1,65 @@
+->	FULL JAVASCRIPT
+		       
+->>	FULL REACTJS
+
+->>>	FULL REACT NATIVE
+
+
+
+Javascript Interview Preparation Questions
+
+-	typeof Null gives an object where as typeof undefined gives an undefined in javascript.
+
+-	typeof Operator Results
+
+			Type of val 														Result
+
+-	Undefined                                                                                                              "undefined"
+
+-	Null                                                                                                                        "object"
+
+-	Boolean                                                                                                                 "boolean"
+
+-	Number                                                                                                                 "number"
+
+-	String                                                                                                                     "string"
+
+-	Object (native and does not implement [[Call]])                                                 "object"
+
+-	Undefined (native or host and does implement [[Call]])                                     "fucntion"
+
+-	Undefined (host and does not implement [[Call]])                                              implement defined except may not be " undefined",                         																       "boolean", "number", or "string".
+
+-	JavaScript array-copy operations create shallow copies.
+
+-	Shallow Copies => A shallow copy of an object is a copy whose properties share the same references (point to the same 	underlying values) as those of the source object from which the copy was made.
+
+-	Splice also make changes in the original array in from which the operations are taking place.
+
+-	concat always return a new array without affecting any of the previous arrays.
+
+-	how to use a symbol in an object in javascript
+	We use the symbol as follows:
+	const mySym = Symbol "key1"
+	const Juser = {
+		name: "saman",
+		age: 23,
+		[mySym]: "mykey1"
+	}
+	This is the perfect way to use a symbol inside an object
+
+-	We can also use this way but the typeof symbol object is string here in this case
+	const mySym = Symbol "key1"
+	const Juser = {
+		name: "saman",
+		age: 23,
+		mySym: "mykey1"
+	}
+	in the above example mySym is working as a string datatype
+
+-	Mostly we use the elements of objects through dot operator always.
+
+-	const obj3 = Object.assign(obj1, obj2, obj4)
+	In the above syntax the obj1 is the target object and the objects obj2 and obj4 are the source objects.
+
+-	
